@@ -1,5 +1,32 @@
 body {
-    margin: 0;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-panel{
+    display: flex;
+    font-size: 32px;
+}
+
+.player-panel div{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: center;
+
+}
+
+.player-panel img{
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.player-inactive {
+    opacity: 0.5;
 }
 
 table {
