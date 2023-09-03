@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <img class="game-over d-none" id="game-over" src="./img/game-over2.png">
+    <button id="restart-btn" class="restart-btn d-none" onclick="restartGame()">Restart</button>
     <div class="player-panel">
         <div class="player-inactive" id="player-1">
             <img id="" class="" src="./img/circle.png">Player 1
@@ -20,6 +22,21 @@
             <img id="" class="" src="./img/cross.png"> Player 2
         </div>
     </div>
+
+    <div style="position: relative;">
+        <div id="line-1" class="horizontal-line" style="top: 68px; left:-236px"></div>
+        <div id="line-2" class="horizontal-line" style="top: 223px; left:-236px"></div>
+        <div id="line-3" class="horizontal-line" style="top: 381px; left:-236px"></div>
+        <div id="line-4" class="horizontal-line make-vertical" style="top: 228px; left:-395px"></div>
+        <div id="line-5" class="horizontal-line make-vertical" style="top: 228px; left:-239px"></div>
+        <div id="line-6" class="horizontal-line make-vertical" style="top: 228px; left:-83px"></div>
+        <div id="line-7" class="horizontal-line spin-45deg"
+            style="top: 228px; left:-302px; width: 603px; transform: rotate(45deg) scaleX(0.0);"></div>
+        <div id="line-8" class="horizontal-line spin--45deg"
+            style="top: 228px; left:-302px; width: 603px; transform: rotate(-45deg) scaleX(0.0);"></div>
+
+    </div>
+
 
 
 
